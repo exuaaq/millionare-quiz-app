@@ -1,7 +1,7 @@
 # Ko želi biti milioner? - Kviz aplikacija
-Eldar Alić
-Eniz Dajić
-Feđa Čoloman
+- Eldar Alić
+- Eniz Dajić
+- Feđa Čoloman
 
 ## Arhitektura
 
