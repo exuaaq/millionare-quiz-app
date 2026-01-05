@@ -1,7 +1,7 @@
 # Ko želi biti milioner? - Kviz aplikacija
-- Eldar Alić
-- Eniz Dajić
-- Feđa Čoloman
+Eldar Alić
+Eniz Dajić
+Feđa Čoloman
 
 ## Arhitektura
 
@@ -52,3 +52,71 @@ Frontend: `http://localhost:5173`
 - Bcrypt hashovanje lozinki
 - CORS zaštita
 - Input validacija sa Zod
+
+## Uloge
+### **Član 1: Eldar Alić**
+**Uloga:** Backend Developer & Database Administrator
+
+**Obavljeni zadaci:**
+- Postavljanje i konfiguracija Express.js servera sa TypeScript-om
+- Implementacija RESTful API strukture i svih endpoint-ova
+- Dizajn i kreiranje MySQL baze podataka šeme
+- Implementacija autentifikacije i autorizacije koristeći JWT (JSON Web Tokens)
+- Integracija Bcrypt biblioteke za sigurno hashovanje korisničkih lozinki
+- Kreiranje API endpoint-ova: 
+  - `/api/auth/*` - Registracija, login, logout
+  - `/api/users/*` - Upravljanje korisničkim profilima
+  - `/api/games/*` - CRUD operacije za kviz igre
+- Konfiguracija CORS politika za frontend-backend komunikaciju
+- Input validacija koristeći Zod biblioteku
+- Priprema SQL skripti za inicijalizaciju baze podataka
+- Pisanje dokumentacije za backend API
+- Testiranje backend funkcionalnosti i sigurnosnih mehanizama
+
+---
+
+### **Član 2: Eniz Dajić**
+**Uloga:** Frontend Developer & UI/UX Designer
+
+**Obavljeni zadaci:**
+- Postavljanje React 19 projekta sa Vite build tool-om
+- Implementacija TypeScript konfiguracije za frontend
+- Dizajn i implementacija korisničkog interfejsa (UI)
+- Integracija Tailwind CSS framework-a za stilizovanje
+- Implementacija Radix UI komponenti za pristupačan i moderan interfejs
+- Kreiranje i upravljanje ruta koristeći React Router v6
+- Razvoj glavnih komponenti aplikacije:
+  - Login/Register forme
+  - Dashboard stranica
+  - Quiz interfejs sa pitanjima i odgovorima
+  - Leaderboard (tabela rezultata)
+  - Admin panel
+- Implementacija responsive dizajna za različite veličine ekrana
+- State management i data flow između komponenti
+- Integracija animacija pomoću tailwindcss-animate
+- Testiranje korisničkog iskustva (UX) na različitim uređajima
+
+---
+
+### **Član 3: Feđa Čoloman**
+**Uloga:** Full-Stack Integration Engineer & DevOps
+
+**Obavljeni zadaci:**
+- Integracija frontend-a i backend-a
+- Konfiguracija Axios klijenta za HTTP zahteve
+- Implementacija API poziva iz React komponenti ka Express serveru
+- Upravljanje JWT token-ima u localStorage-u
+- Kreiranje API endpoint-ova: 
+  - `/api/quiz/*` - Dohvatanje pitanja, provera odgovora, prikaz rezultata
+  - `/api/admin/*` - Admin funkcionalnosti (dodavanje pitanja, upravljanje korisnicima)
+  - `/api/leaderboard/*` - Prikaz najboljih igrača i statistika
+- Konfiguracija . env fajlova za environment varijable
+- Postavljanje concurrent skripta za paralelno pokretanje frontend-a i backend-a
+- Implementacija error handling-a i loading states
+- Kreiranje build skripti za produkcijsko okruženje
+- Dokumentovanje instalacionih koraka i pokretanja projekta
+- Integracija form validacije pomoću React Hook Form i Zod resolvers
+- Debugging i optimizacija performansi aplikacije
+- Priprema projekta za deployment
+
+---
