@@ -13,7 +13,7 @@
 - **CORS** konfiguracija
 
 ### Frontend (React + Vite)
-- **React 19** sa TypeScript
+- **React** sa TypeScript
 - **Vite** za brzi development
 - **React Router** za client-side routing
 - **Axios** za API pozive
