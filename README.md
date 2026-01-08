@@ -30,7 +30,7 @@
 ### Instalacija
 
 1. Instalirajte dependencies: `npm run install:all`
-2. Konfigurišite: `.env` fajlove, primjer se nalazi u `.env.example` u frontendu i backendu
+2. Napraviti `.env` fajlove, primjer se nalazi u `.env.example` u frontendu i backendu
 3. Dodati u mySQL iz foldera `scripts`
 4. Pokrenite sa `npm run dev`
 
